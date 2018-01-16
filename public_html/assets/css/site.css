@@ -1,0 +1,48 @@
+.formHandler {
+  padding: 20px;
+}
+
+.padContainer {
+  padding: 20px 0;
+}
+
+#pokemonCard {
+  max-width: 355px;
+}
+
+#pokImg {
+  height: 200px;
+  padding: 15px;
+}
+
+#pokDesc {
+  font-size: 0.8rem;
+}
+
+#menuPokedex {
+  margin: 10px;
+}
+
+
+
+.hideDiv {
+  display: none;
+}
+
+/**
+* @ref https://www.w3schools.com/howto/howto_css_loader.asp
+*/
+.loader {
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+    margin: 0 auto;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
